@@ -16,7 +16,12 @@ html {
     width: 250px;
     height: 180px;
     border: 1px solid gray;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    padding: 15px;
+    line-height: 20px;
+    
+}
 
+.card p {
+    margin: 0;
 }
