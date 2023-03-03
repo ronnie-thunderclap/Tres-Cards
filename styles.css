@@ -26,10 +26,11 @@ html {
     grid-template-rows: auto auto auto
 }
 .card {
-    box-shadow: 0 0 10px rgb(221, 221, 221);}
+    box-shadow: 0 0 10px rgb(221, 221, 221, 1);}
 .card:hover {
-    background-color: rgb(221, 221, 221, 0.2);
+    background-color: rgb(221, 221, 221, 0.6);
 }
+
 .icon {
     grid-column: 1 / span 1;
     grid-row: 1 / 1;
@@ -60,3 +61,8 @@ html {
 
 }
 
+@media all (max-width: 475px) {
+    .tres-cards {
+        flex-direction: column;
+    }
+}
